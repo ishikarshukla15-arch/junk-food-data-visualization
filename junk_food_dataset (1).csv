@@ -1,0 +1,1001 @@
+Food_ID,JunkFood_Type,Brand,Price_USD,Country_Consumes,Annual_Sales_Units,Calories,Fat_g,Sugar_g,Popularity_Score
+1,Ice Cream,McDonalds,7.48,India,241094,603,53.4,51.8,84
+2,Fried Chicken,Pepsi,7.52,India,384413,299,7.7,19.6,68
+3,Chocolate,Subway,11.28,Canada,464845,908,19.1,57.4,11
+4,Hot Dog,Subway,1.71,Australia,347908,928,30.6,62.1,77
+5,Ice Cream,Burger King,6.1,Japan,156956,1122,17.5,53.9,73
+6,Soda,Pepsi,12.55,Brazil,161255,912,45.9,49.2,4
+7,Fries,Burger King,9.64,Canada,479786,1151,55.6,71.4,76
+8,Ice Cream,Pepsi,6.05,Germany,469462,225,28.3,6.3,73
+9,Chocolate,Nestle,13.72,Japan,375180,748,23.8,26.5,77
+10,Hot Dog,McDonalds,11.93,India,155331,374,57.9,19.9,48
+11,Fried Chicken,Nestle,5.08,Germany,172031,262,29.5,79,26
+12,Chocolate,Lays,10.21,India,383669,400,31.9,31.2,77
+13,Chocolate,Pizza Hut,9.54,India,431673,990,24.3,58.6,39
+14,Fries,Dominos,6.92,Japan,352823,863,55,54.8,92
+15,Sandwich,Pepsi,6.45,India,130829,274,36.3,17,58
+16,Hot Dog,Lays,6.14,South Korea,133216,1033,46.9,19.1,19
+17,Pizza,Pizza Hut,9.83,USA,400319,179,49.6,22.5,88
+18,Chocolate,Coca-Cola,7.47,South Korea,70901,430,23.8,32.9,83
+19,Sandwich,McDonalds,12.73,USA,248386,1073,28.9,18.7,77
+20,Pizza,Burger King,10.54,France,180607,517,51.7,1.6,77
+21,Hot Dog,Burger King,2.44,France,414319,644,25,70.4,58
+22,Burger,Nestle,10.14,India,103046,1198,48.7,77.2,28
+23,Soda,Subway,5.16,Brazil,357156,867,56.8,27.3,66
+24,Sandwich,Pizza Hut,9.5,Brazil,83278,1166,39.3,27.1,10
+25,Chips,Coca-Cola,10.68,USA,279535,755,45.8,0.6,86
+26,Burger,Lays,4.62,Germany,107476,524,49.3,54.4,77
+27,Soda,McDonalds,7.67,Japan,427117,788,51.5,66,58
+28,Fries,Pizza Hut,4.07,India,387865,1198,26.7,11.7,73
+29,Ice Cream,Coca-Cola,2.21,Japan,102537,265,7.8,12.8,97
+30,Fried Chicken,Dominos,6.61,South Korea,348303,197,27.1,63.2,14
+31,Chips,Pepsi,6.4,Brazil,466130,248,42.1,49.3,84
+32,Fries,Burger King,14.94,Australia,398184,554,29.8,3.6,15
+33,Hot Dog,Lays,7.53,South Korea,186429,834,46.2,49.8,96
+34,Fries,Burger King,6,South Korea,222980,1052,24.6,24.7,33
+35,Ice Cream,Lays,9.34,USA,436653,652,39.9,29.5,17
+36,Hot Dog,Nestle,2.7,UK,302647,1043,15.3,61.6,24
+37,Chips,Subway,14.48,South Korea,494498,407,46.2,64.9,30
+38,Ice Cream,Lays,10.07,India,491675,993,35,32,62
+39,Pizza,Burger King,11.69,Canada,80403,270,16.2,75.8,13
+40,Fried Chicken,Nestle,3.8,Canada,439474,959,21.1,32.5,62
+41,Chips,Lays,7.03,India,431940,1127,46.2,61.7,47
+42,Pizza,Dominos,7.21,UK,69286,203,31.5,38.7,16
+43,Soda,Subway,12.59,UK,341986,1168,16.9,71.8,66
+44,Chips,Lays,1.52,USA,109927,933,58.2,72.6,81
+45,Soda,Nestle,5.56,Brazil,282052,390,44.3,7,96
+46,Hot Dog,Pizza Hut,14.75,Japan,490833,632,57.6,74.9,43
+47,Pizza,KFC,7.91,UK,448842,1162,28.5,66,8
+48,Fried Chicken,Coca-Cola,6.66,Australia,304372,336,31.1,63.3,3
+49,Ice Cream,KFC,3.12,USA,28386,805,54.4,16.1,12
+50,Chocolate,KFC,14.65,France,182826,411,33.9,64.4,84
+51,Fries,McDonalds,1.77,Germany,295446,1102,43.9,68,16
+52,Burger,Dominos,11.45,France,327959,640,18.9,23.1,78
+53,Fried Chicken,Pizza Hut,11.88,USA,257156,580,29.6,76.2,80
+54,Pizza,Pepsi,4.79,South Korea,482964,388,11.8,4,59
+55,Chocolate,Lays,10.57,Japan,330488,453,16.3,12,49
+56,Fried Chicken,Coca-Cola,2.75,Germany,433834,447,5.1,43,63
+57,Pizza,Subway,4.97,France,378747,225,7.2,46.1,62
+58,Sandwich,Pizza Hut,12.14,Germany,474450,1148,58.8,51.6,49
+59,Sandwich,Burger King,13.17,Australia,328258,791,18.3,1.4,51
+60,Soda,Pepsi,9.71,Australia,253724,976,41.5,76.8,33
+61,Fried Chicken,McDonalds,8.34,Australia,206202,432,51.2,3.6,30
+62,Sandwich,McDonalds,3.65,USA,30525,740,35.3,11.4,59
+63,Pizza,Pizza Hut,2.35,Japan,84818,221,13.4,1.1,76
+64,Soda,Nestle,3.09,USA,119589,852,45,45.3,15
+65,Pizza,KFC,4.57,Canada,150406,724,38,74.6,82
+66,Soda,Burger King,6.11,South Korea,99715,1149,45.2,53.3,92
+67,Fried Chicken,McDonalds,6.64,South Korea,198839,1041,47.3,65.8,23
+68,Chocolate,Coca-Cola,6.18,Australia,273788,161,58.6,1.1,78
+69,Ice Cream,McDonalds,4.73,Canada,368298,290,36.5,43.4,94
+70,Chips,Subway,8.38,UK,431149,166,23.8,36.8,97
+71,Chocolate,Lays,12.64,UK,262438,402,40.7,39.9,45
+72,Hot Dog,McDonalds,5.28,Australia,310613,614,8.8,5.8,62
+73,Pizza,Subway,14.22,France,431903,525,54.4,54.8,79
+74,Hot Dog,Pizza Hut,13.29,USA,373753,1130,11.6,40.3,71
+75,Chocolate,Pizza Hut,3.68,Australia,450872,669,23,61.2,15
+76,Soda,Pepsi,12.11,Brazil,415591,239,49.9,38.8,46
+77,Chips,McDonalds,9.26,Germany,332350,869,37.9,12,64
+78,Chips,Coca-Cola,9.15,South Korea,363606,953,26.6,51.9,46
+79,Burger,McDonalds,6.78,UK,172679,945,31,13.8,56
+80,Chips,Coca-Cola,8.27,India,88178,779,52,69.8,44
+81,Ice Cream,Dominos,6.86,UK,422209,225,23.7,49,75
+82,Chips,Pepsi,8.79,South Korea,180458,1075,52.8,12.6,29
+83,Chocolate,Dominos,9.98,Germany,259466,549,9.8,77,95
+84,Burger,McDonalds,10.6,South Korea,444503,1119,47.7,41.5,62
+85,Chocolate,Pepsi,8.69,India,91724,946,51.6,5.8,89
+86,Chocolate,Dominos,11.24,Australia,234204,344,15,50.1,52
+87,Fries,KFC,3.41,Canada,491524,377,28.7,20.3,54
+88,Burger,McDonalds,4.36,India,101393,610,14.1,64.3,88
+89,Chocolate,Dominos,12.55,South Korea,394458,767,43.9,65.4,57
+90,Fries,KFC,5.85,South Korea,81312,1194,34.4,78.3,83
+91,Fries,KFC,1.81,Brazil,496587,213,39.9,40.1,66
+92,Burger,Pizza Hut,3.58,Brazil,342468,314,15.8,36.4,22
+93,Hot Dog,McDonalds,4.52,Japan,76196,176,16.6,60.3,20
+94,Soda,KFC,14.42,Brazil,75014,1161,7.3,10.6,33
+95,Ice Cream,Pizza Hut,9.24,USA,406426,434,22.7,43.8,72
+96,Soda,Dominos,14.09,Canada,146994,430,35.8,43.7,25
+97,Chips,Subway,9.26,Germany,434505,987,52.2,7.2,46
+98,Ice Cream,McDonalds,7.97,India,38340,980,41.7,33.4,73
+99,Chips,Pepsi,5.74,South Korea,306994,1067,28.9,68.3,98
+100,Chocolate,Coca-Cola,9.69,Japan,455200,373,57.4,68.5,57
+101,Pizza,Coca-Cola,3.38,Japan,118711,933,44.6,7.9,87
+102,Burger,Dominos,13.63,Germany,220250,1114,56.2,7.3,5
+103,Ice Cream,Nestle,12.7,Canada,16094,1099,34,21,55
+104,Ice Cream,Nestle,5.79,India,355103,194,19.2,70,61
+105,Chocolate,Dominos,14.36,UK,431634,620,7.9,10.3,89
+106,Hot Dog,KFC,12.64,Brazil,272885,183,44.9,57.6,8
+107,Fries,McDonalds,10.5,Australia,116585,802,11.7,8.1,16
+108,Chocolate,Coca-Cola,3.14,Japan,470590,979,21.7,49.9,48
+109,Sandwich,Coca-Cola,7.96,Brazil,389708,370,34.3,28.5,61
+110,Fries,KFC,8.33,Brazil,73798,683,36,63.1,15
+111,Burger,Coca-Cola,4.64,USA,383170,841,38,18.7,65
+112,Fries,Pepsi,2.58,Canada,206604,1081,14.1,51.1,22
+113,Hot Dog,McDonalds,11.99,Australia,115130,990,25.9,18.9,3
+114,Fries,Lays,3.15,UK,289308,1160,38.9,57.1,54
+115,Burger,Coca-Cola,9.52,South Korea,171667,731,58.3,69.9,14
+116,Hot Dog,Dominos,14.14,USA,35257,388,45,10.1,36
+117,Soda,Pepsi,13.33,Brazil,412427,590,55.7,69.3,82
+118,Ice Cream,Coca-Cola,5.25,Brazil,363133,297,46.9,47.5,82
+119,Ice Cream,Pepsi,12.99,France,403448,1182,37.5,10.2,67
+120,Chips,Pizza Hut,1.5,Australia,465969,537,15.6,34.2,10
+121,Soda,Lays,1.74,Australia,57691,1065,41.7,12.9,49
+122,Soda,Burger King,9.63,France,487981,787,39.3,56,65
+123,Fries,Dominos,6.42,Australia,84768,427,38.1,60.7,91
+124,Ice Cream,Dominos,6.72,Brazil,423829,1138,31.9,8.5,57
+125,Burger,McDonalds,9.12,Japan,19026,738,34.1,40.5,27
+126,Fried Chicken,Pepsi,4.09,India,451751,798,23.4,65.2,75
+127,Fried Chicken,KFC,4.36,Brazil,230162,767,33.6,74.9,5
+128,Hot Dog,Dominos,8.04,USA,298052,284,15.9,41.1,71
+129,Ice Cream,Pepsi,11.68,Canada,450329,729,49.3,76,83
+130,Ice Cream,Pepsi,9.86,France,24610,639,15.2,42.9,57
+131,Fried Chicken,Subway,5.51,UK,182718,627,9.7,31.5,93
+132,Ice Cream,Subway,7.31,South Korea,330329,533,29,67.9,15
+133,Fries,Burger King,3.8,UK,339711,312,41.2,39.4,99
+134,Sandwich,Pizza Hut,2.51,Brazil,183646,590,29.1,37.8,76
+135,Pizza,Burger King,12.07,USA,227123,564,20.2,39.2,30
+136,Soda,Coca-Cola,5.08,Brazil,303326,437,35.7,67.7,20
+137,Chips,KFC,3.9,Canada,383280,336,24.1,66.6,37
+138,Hot Dog,Coca-Cola,10.84,Japan,398786,279,56.3,32.3,3
+139,Sandwich,Nestle,9.84,South Korea,496006,343,55.7,26.7,73
+140,Fried Chicken,Coca-Cola,10.05,Canada,24288,465,32.6,39.4,41
+141,Soda,McDonalds,4.59,France,345968,293,23,45.8,39
+142,Ice Cream,Coca-Cola,4.64,France,428093,165,45.5,19.1,26
+143,Chips,Burger King,4.48,Brazil,89425,572,7,63.5,2
+144,Ice Cream,Dominos,3.85,USA,5917,394,31.1,38.9,23
+145,Burger,Dominos,10.35,Canada,342746,1076,23.5,26.7,23
+146,Burger,Subway,12.95,Germany,493256,278,55.6,8.5,85
+147,Chips,KFC,11.28,USA,331719,1056,5.7,19.1,16
+148,Chips,KFC,12.19,Japan,339662,1036,35.4,75.9,9
+149,Fried Chicken,McDonalds,6.96,France,258187,490,45.7,24.4,13
+150,Chips,Burger King,10.33,Brazil,44104,153,31.7,13.5,28
+151,Fries,Subway,6.28,Australia,154134,455,9.7,36.9,27
+152,Ice Cream,Nestle,8.59,France,284143,1057,58.5,24.6,51
+153,Sandwich,KFC,8,South Korea,267091,756,33.5,2.8,64
+154,Chocolate,Dominos,3.89,India,460061,1141,38.8,25.9,52
+155,Chips,Coca-Cola,6.73,Australia,408157,470,18,43.5,81
+156,Hot Dog,Coca-Cola,14.51,Brazil,66169,708,31.6,44.1,38
+157,Burger,Subway,4.86,Germany,159542,767,28.6,28.5,65
+158,Fries,Burger King,3.31,Australia,134744,860,9.1,35.8,18
+159,Soda,Burger King,7.15,South Korea,377828,680,10.8,77.2,63
+160,Chocolate,Pizza Hut,12.17,USA,64821,559,51.1,30.2,51
+161,Sandwich,Lays,9.36,Germany,222741,967,18.2,20.7,9
+162,Chocolate,KFC,10.69,France,254265,642,15.7,19.5,13
+163,Chips,Burger King,4.06,Germany,442651,161,32.8,36.6,40
+164,Fried Chicken,Dominos,9.86,Canada,402745,344,47.3,60.8,55
+165,Burger,Subway,5.87,South Korea,219127,639,8.4,16.5,79
+166,Burger,Nestle,12.76,Australia,279336,944,36.7,56.7,43
+167,Soda,Pizza Hut,10,Canada,341246,1030,11.6,1.7,44
+168,Fried Chicken,Pepsi,4.18,Germany,208834,331,7,33.5,68
+169,Ice Cream,McDonalds,2.37,Canada,239538,1111,7.9,62.1,33
+170,Pizza,Nestle,2.08,UK,382038,805,50.9,27.1,24
+171,Fries,Pepsi,6.51,South Korea,91795,843,11.5,45.1,36
+172,Burger,Coca-Cola,5.09,Japan,170159,179,7.5,16.4,10
+173,Hot Dog,McDonalds,10.22,USA,333821,927,29.1,59.4,20
+174,Burger,KFC,8.24,Germany,140699,593,51.4,4.2,75
+175,Chocolate,Dominos,5.09,South Korea,454757,447,19.4,68.2,12
+176,Burger,McDonalds,3.51,Japan,248877,957,28.2,15.9,62
+177,Burger,Lays,3.22,Japan,204298,994,7.2,70,18
+178,Pizza,Pepsi,13.17,Brazil,401471,1165,29.7,28.2,94
+179,Pizza,KFC,4.79,Canada,193505,703,36.8,57.8,63
+180,Sandwich,Lays,10.3,Japan,141285,452,36.4,25.5,84
+181,Ice Cream,Coca-Cola,12.44,UK,107412,570,23.3,72.5,25
+182,Hot Dog,Lays,9.79,South Korea,24404,334,22.4,10.1,12
+183,Burger,Pizza Hut,13.1,India,121545,617,10.9,14.3,21
+184,Burger,Pizza Hut,6.8,India,423596,903,25.2,39.4,25
+185,Fries,Subway,14.41,Germany,227128,512,10.5,6.6,11
+186,Pizza,Nestle,3.3,France,155245,485,47.2,15.7,64
+187,Hot Dog,Nestle,2.88,Canada,189099,311,58.1,75.5,73
+188,Soda,KFC,10.39,France,291133,161,58.4,78.1,50
+189,Sandwich,Coca-Cola,14.23,Japan,266657,737,52.6,30.1,62
+190,Ice Cream,Burger King,12.42,South Korea,375250,350,38,73.9,89
+191,Fried Chicken,Pizza Hut,2.53,Germany,291663,671,43.5,43.6,99
+192,Ice Cream,KFC,5.27,Australia,261875,654,20.7,21.6,96
+193,Chocolate,Burger King,14.06,Japan,289583,937,39.7,56.2,49
+194,Burger,Nestle,4.92,Canada,385714,209,30.1,52.7,14
+195,Sandwich,Subway,12.05,India,475165,727,31.5,79.1,1
+196,Chocolate,Lays,12.64,Brazil,19995,470,46.7,21.2,81
+197,Hot Dog,Pizza Hut,8.19,South Korea,28559,1072,20.5,53.8,25
+198,Fried Chicken,KFC,6.72,USA,356193,718,22.5,4.2,59
+199,Pizza,McDonalds,7.58,France,403237,676,55.9,9.1,72
+200,Sandwich,Burger King,4.56,Germany,103000,673,8.1,0.3,69
+201,Sandwich,Lays,13.51,France,157191,762,31.7,80,5
+202,Burger,Pizza Hut,7.58,South Korea,449755,274,55.2,64.2,99
+203,Chips,Nestle,13.41,France,493051,1020,38.6,62.9,19
+204,Sandwich,Coca-Cola,2.93,South Korea,306494,429,35.1,40.8,23
+205,Fries,Burger King,14.84,France,444439,1066,18.7,24,9
+206,Fried Chicken,Nestle,7.48,UK,30517,771,23.9,12.1,94
+207,Fried Chicken,Pizza Hut,2.15,Australia,476869,995,51.9,22.8,50
+208,Fries,Burger King,2.01,Japan,420466,823,35.8,30.1,16
+209,Soda,Lays,11.57,Japan,220558,463,33.3,60.5,33
+210,Fries,Pizza Hut,10.4,Canada,481111,481,10.5,43.2,2
+211,Fries,Pepsi,12.33,USA,356276,185,5.9,6.2,14
+212,Fried Chicken,KFC,2.92,USA,489282,1195,58,1.4,1
+213,Ice Cream,Lays,1.98,Canada,465014,355,25.7,8.2,90
+214,Fried Chicken,Burger King,8.37,Brazil,452415,788,38.2,32.8,58
+215,Chips,Coca-Cola,6.73,Japan,326690,997,9.4,74.7,89
+216,Burger,Nestle,7.74,Brazil,110686,589,42.6,51,16
+217,Chocolate,McDonalds,14.89,South Korea,93151,878,56.3,64.1,79
+218,Ice Cream,Nestle,14.61,South Korea,270471,1090,36.7,37.3,90
+219,Pizza,Burger King,14.22,India,125318,313,11.9,28.9,47
+220,Chocolate,Nestle,12.08,France,427984,297,37,8.7,44
+221,Burger,KFC,6.29,USA,200490,443,47.1,70.1,80
+222,Chips,Pizza Hut,7.06,India,492602,344,27.4,62.7,14
+223,Chips,McDonalds,8.92,Australia,178860,812,53.4,13.4,93
+224,Pizza,Dominos,12.71,Canada,120945,629,40.7,41,24
+225,Ice Cream,Burger King,2.43,Canada,218456,272,54.5,39,55
+226,Soda,Subway,7.23,South Korea,313974,848,39.3,50,15
+227,Fries,Dominos,2.62,Japan,57446,1114,12.2,75.7,83
+228,Ice Cream,Nestle,8.45,Brazil,413376,810,22,46.4,72
+229,Soda,Burger King,13.64,USA,192655,859,16.1,43.2,34
+230,Chips,Pepsi,12.06,India,432214,545,55,4,2
+231,Fried Chicken,Subway,4.58,Brazil,425446,1061,46.8,5,27
+232,Burger,McDonalds,14.68,India,145148,1154,42.2,15,74
+233,Pizza,Coca-Cola,10.51,France,74341,466,21.6,2.6,99
+234,Burger,Pepsi,1.64,Australia,36085,830,15.1,59.5,87
+235,Hot Dog,Dominos,4.95,Australia,322715,644,46.6,57.9,72
+236,Hot Dog,Pizza Hut,5.02,Brazil,412931,705,31.1,10.9,92
+237,Ice Cream,KFC,2.43,Brazil,395452,759,17.4,66.9,23
+238,Chips,Coca-Cola,14.46,Brazil,10750,258,38.9,12.4,68
+239,Chips,Pepsi,7.96,India,381075,521,7.2,24.1,14
+240,Fries,Pizza Hut,13.59,France,345912,1004,22.9,19.9,63
+241,Fries,Pizza Hut,5.85,UK,40903,765,30.8,29.8,93
+242,Fries,Burger King,3.19,Brazil,208561,917,13.1,20.4,65
+243,Fried Chicken,Pepsi,7.9,Japan,430309,355,59.2,39.1,68
+244,Chocolate,McDonalds,3.04,USA,96036,996,16.5,32.6,63
+245,Sandwich,Nestle,8.06,USA,92954,192,12.2,78.9,96
+246,Chocolate,Subway,13.92,India,432530,1014,16.2,4.5,97
+247,Burger,Subway,8.53,Brazil,446441,934,47.3,11.4,90
+248,Chocolate,Dominos,9.82,South Korea,486201,625,28.4,4.2,81
+249,Fried Chicken,Dominos,3.61,Canada,350158,232,36.1,50.1,87
+250,Burger,Subway,2.09,UK,433395,339,6.2,4.4,64
+251,Chocolate,McDonalds,3,Japan,122305,949,6.9,66.9,32
+252,Fried Chicken,KFC,9.58,France,423554,1085,29.5,41,79
+253,Sandwich,Lays,2.78,South Korea,490651,400,49.9,42.2,13
+254,Chocolate,Nestle,6.58,Australia,205753,440,53.7,44.9,66
+255,Fried Chicken,KFC,8.93,South Korea,37101,475,9.8,13.7,19
+256,Fries,Burger King,6.75,India,7775,986,34.6,15.8,24
+257,Chips,Lays,3.71,UK,116497,657,55.2,25.5,88
+258,Fries,Lays,5.2,Germany,495399,880,26.3,47.5,11
+259,Chips,Pepsi,14.03,Germany,50619,221,50.6,16.8,59
+260,Pizza,McDonalds,10.63,Brazil,444054,790,12.4,9.3,86
+261,Pizza,McDonalds,8.2,Brazil,257388,1089,56.4,77.6,15
+262,Pizza,Lays,1.67,India,417755,757,46.3,1.8,10
+263,Sandwich,Pepsi,14.9,France,238346,715,56.8,64.2,41
+264,Fries,Nestle,10.56,Brazil,324268,203,42.2,63,27
+265,Chips,Lays,5.78,Canada,70149,677,25,23.8,60
+266,Fried Chicken,Coca-Cola,13.37,UK,31616,760,56.6,10.9,73
+267,Burger,Dominos,4.99,India,477871,342,20.2,11.7,52
+268,Fried Chicken,Dominos,8.84,USA,226767,207,23.3,55.8,28
+269,Burger,KFC,10.09,Australia,190639,278,43.5,51.4,65
+270,Hot Dog,Burger King,4.48,India,173171,855,47.1,62.6,17
+271,Fried Chicken,Dominos,14.71,India,211903,1001,56.1,75,95
+272,Chocolate,Pizza Hut,11.6,Germany,236318,157,16.3,55.4,44
+273,Chocolate,KFC,9.03,Japan,328943,178,48.9,12.5,10
+274,Ice Cream,Dominos,3.94,France,357365,1096,45.6,19.5,63
+275,Fries,Burger King,2.23,Japan,382023,280,8.5,67.4,93
+276,Burger,McDonalds,5.82,Canada,292623,337,26.3,16.7,82
+277,Burger,McDonalds,11.67,USA,444388,858,20.6,5.8,47
+278,Fries,Nestle,5.14,Germany,366309,361,21.7,56.3,38
+279,Sandwich,Lays,8.78,USA,60863,425,59.1,32.2,70
+280,Ice Cream,Coca-Cola,11.33,Canada,178115,392,40.4,73.6,76
+281,Sandwich,McDonalds,2.96,Japan,349713,1136,44.5,52,53
+282,Sandwich,Pepsi,10.75,India,413624,834,58.7,7.2,78
+283,Sandwich,Dominos,2.74,Brazil,258347,320,25.7,75.8,44
+284,Fries,Pepsi,14.53,Brazil,194052,802,49.1,20.7,74
+285,Sandwich,Burger King,8.09,South Korea,481172,337,28.9,27,54
+286,Chocolate,McDonalds,3.53,Australia,283495,201,52.8,32.2,20
+287,Pizza,Coca-Cola,6.12,France,140203,260,14.9,4.1,79
+288,Hot Dog,Burger King,7.08,Canada,252908,1026,57.1,39.7,31
+289,Burger,Pizza Hut,11.74,Australia,311969,360,17,9.9,7
+290,Burger,Pizza Hut,11.54,France,278493,1007,22.9,32.1,58
+291,Hot Dog,Pepsi,9.76,Australia,197003,776,46.6,28.1,10
+292,Fries,Lays,2.93,Japan,311398,1199,26.7,61.8,10
+293,Fried Chicken,KFC,3.55,France,305369,448,38.5,64.3,39
+294,Fries,Lays,2.77,Japan,279597,1073,29.5,12.3,28
+295,Burger,Nestle,9.29,India,154886,286,45.8,29.3,30
+296,Burger,Lays,13.34,Germany,154335,1193,17.6,29.9,37
+297,Hot Dog,Nestle,7.36,Japan,82694,589,8.2,12.1,67
+298,Sandwich,Nestle,3.67,Brazil,20735,360,21.5,63.9,43
+299,Fries,Coca-Cola,9.03,Australia,414046,901,31.1,56.6,79
+300,Chips,McDonalds,12.46,South Korea,315037,584,14.2,15.2,85
+301,Hot Dog,Coca-Cola,11.51,UK,180745,929,24.5,29.3,52
+302,Chocolate,Nestle,13.4,France,394150,588,27,8.5,56
+303,Burger,Burger King,5.25,Canada,225534,815,8.2,50.3,76
+304,Hot Dog,Pizza Hut,4.12,South Korea,50066,560,37.1,9.7,68
+305,Fries,Nestle,13.38,Brazil,236387,955,53.6,78.9,9
+306,Burger,Coca-Cola,10.38,Japan,139445,759,13.3,62.5,92
+307,Fried Chicken,Burger King,5.7,Germany,408551,576,37.9,31.2,23
+308,Hot Dog,Coca-Cola,11.52,India,421957,1051,41.6,46.3,63
+309,Ice Cream,Lays,12.5,UK,277836,1091,28.1,72.9,61
+310,Burger,Dominos,9.8,USA,445511,891,43.6,44.3,40
+311,Fries,Pepsi,10.79,South Korea,50541,477,27.6,14,44
+312,Pizza,KFC,6.57,Germany,170129,201,32.8,30.3,86
+313,Chips,Coca-Cola,8.77,USA,71983,525,5.4,67.5,24
+314,Soda,KFC,8.58,UK,155655,412,43,51.5,51
+315,Sandwich,Subway,12.95,Canada,158837,416,41.4,52.1,58
+316,Soda,Coca-Cola,12.84,Canada,195359,508,7.1,69.3,90
+317,Fries,Dominos,12.74,Australia,422122,801,25.3,71.5,94
+318,Chocolate,KFC,1.65,UK,387891,195,58.8,73.6,33
+319,Chocolate,Nestle,11.62,UK,352247,749,28.1,7.6,16
+320,Pizza,Coca-Cola,11.74,USA,215747,869,32.6,43.5,22
+321,Sandwich,McDonalds,10.66,Germany,182597,750,55,59.2,57
+322,Ice Cream,Pepsi,11.71,France,174302,530,44.4,60.6,62
+323,Pizza,Dominos,12.87,USA,417736,267,37,48.5,82
+324,Soda,KFC,7.85,India,483454,265,48.9,13.3,71
+325,Pizza,Dominos,8.28,Canada,450150,409,52.5,63.8,90
+326,Soda,Burger King,3.18,Canada,292710,454,30.1,57.6,72
+327,Burger,Pepsi,6.7,Australia,340337,156,31.1,6.9,70
+328,Chocolate,Nestle,10.19,India,428350,515,26.2,37.1,30
+329,Burger,Coca-Cola,12.04,Canada,408561,672,58.2,13.9,23
+330,Chips,Coca-Cola,4.43,USA,257084,578,43.3,27,32
+331,Sandwich,Coca-Cola,3.36,India,126015,940,9.6,1.4,86
+332,Ice Cream,Pepsi,10.45,USA,177257,896,52.5,32,57
+333,Soda,McDonalds,1.53,France,251536,516,31.4,44,9
+334,Ice Cream,Subway,3.91,France,229021,462,8.8,49.6,31
+335,Soda,Pizza Hut,1.89,Canada,135956,687,35.2,53.1,71
+336,Fries,Lays,3.75,Canada,75744,1070,27.9,66.9,9
+337,Pizza,KFC,3.95,Germany,300599,1014,53.3,17.2,13
+338,Chips,McDonalds,6.73,France,426234,931,16.2,9.6,58
+339,Chocolate,Nestle,6.93,South Korea,321363,483,50.5,68.1,3
+340,Soda,KFC,13.3,South Korea,313135,947,35.7,12.5,35
+341,Ice Cream,Coca-Cola,8.39,Australia,78616,497,8,78,97
+342,Chips,Dominos,11.27,France,92438,422,58.5,67.4,21
+343,Fried Chicken,Nestle,2.91,USA,121841,1112,33.2,40.1,64
+344,Fried Chicken,KFC,4.54,USA,145558,869,21,78.5,95
+345,Burger,Coca-Cola,10.99,Brazil,174934,649,30.8,7.8,52
+346,Chocolate,KFC,2.21,India,257734,834,52.2,24.2,34
+347,Fries,Dominos,8.07,Japan,63870,228,21.8,51.1,96
+348,Ice Cream,Coca-Cola,9.59,South Korea,91694,771,15.6,28,35
+349,Pizza,Subway,9.63,Canada,242068,1096,12.1,74.3,15
+350,Pizza,McDonalds,1.81,Australia,311000,507,21.4,5.3,96
+351,Ice Cream,Burger King,5.85,Japan,106407,767,47.9,44,6
+352,Sandwich,Lays,10.09,UK,498960,656,30.9,47.3,85
+353,Fries,Pepsi,3.51,Australia,484271,725,17.5,52.2,97
+354,Chips,Lays,10.89,UK,36379,393,14.1,20.5,32
+355,Soda,Nestle,11.57,France,331873,655,23.3,29.2,52
+356,Sandwich,Lays,14.76,UK,426594,571,56.7,67.5,83
+357,Soda,Coca-Cola,4.33,UK,241500,366,23.9,15.6,97
+358,Soda,Subway,12.64,Germany,59353,1158,59.3,66.1,28
+359,Sandwich,Burger King,8.52,Germany,186068,479,31.7,45,95
+360,Burger,McDonalds,6.54,Germany,281175,799,14.9,61,85
+361,Fried Chicken,McDonalds,3.15,France,216144,540,54,57.1,98
+362,Soda,Dominos,11.43,Japan,70982,530,30.3,16.6,64
+363,Sandwich,Pepsi,4.68,Australia,41683,891,44,45.5,79
+364,Sandwich,KFC,6.51,Australia,119091,969,59.1,69.4,78
+365,Hot Dog,Subway,2.34,Canada,122797,822,7.8,34.6,19
+366,Burger,KFC,12.32,Germany,415834,662,10.3,77.3,15
+367,Chocolate,Burger King,11.85,France,11587,1098,44.6,36.2,6
+368,Hot Dog,Lays,11.4,Canada,329934,1079,20.5,11.4,73
+369,Hot Dog,McDonalds,5.54,India,298624,1062,15.1,31.2,84
+370,Ice Cream,Burger King,3.84,Canada,234602,793,7.2,76.1,98
+371,Fried Chicken,Lays,10.11,Japan,156599,576,6.2,25.6,38
+372,Sandwich,McDonalds,8.2,South Korea,290713,651,47.6,69.4,26
+373,Fried Chicken,Lays,3.91,UK,278295,879,12.4,70.5,82
+374,Fries,Pepsi,10.76,Germany,469310,220,30.7,28,92
+375,Ice Cream,Subway,14.88,South Korea,195246,627,38.3,6.7,51
+376,Chocolate,Nestle,11.59,Canada,49739,606,28.6,58,73
+377,Fried Chicken,Burger King,11.49,France,37954,338,6.5,24.9,96
+378,Pizza,Burger King,14.33,UK,248935,440,48.1,62.6,53
+379,Soda,Pizza Hut,4.24,Australia,114373,1069,5.6,35.4,56
+380,Fries,Coca-Cola,9.13,USA,433519,441,46.9,38.8,59
+381,Burger,Pepsi,14.73,UK,39700,905,54.1,62.2,70
+382,Chocolate,Pepsi,3.73,Japan,491252,526,28.8,30.6,78
+383,Fries,KFC,10.95,Japan,128728,657,34.5,35.5,92
+384,Soda,Lays,9.41,Canada,465784,677,31.2,30.1,58
+385,Ice Cream,Coca-Cola,9.42,India,333932,708,26.4,29.4,88
+386,Soda,Subway,10.92,Japan,76045,409,53.8,42.1,13
+387,Hot Dog,Subway,14.05,Japan,436058,570,54.2,64.7,43
+388,Soda,Pepsi,12.06,France,149972,453,23.5,28.9,76
+389,Hot Dog,Subway,2.26,Canada,395136,1091,38.8,41.9,51
+390,Ice Cream,Pizza Hut,13.01,UK,347203,691,56,53.7,19
+391,Chips,Burger King,4.54,India,6881,257,57.9,21.6,21
+392,Hot Dog,Dominos,6.59,South Korea,431253,417,33,22.2,91
+393,Burger,Nestle,7.73,USA,399846,371,29.9,74.7,83
+394,Soda,KFC,7.99,Germany,287933,842,20.3,57.9,24
+395,Soda,Lays,7.37,Australia,393227,404,57.7,46.2,26
+396,Burger,Nestle,14.15,Japan,93059,402,12.9,51.8,45
+397,Pizza,Lays,11.03,Canada,219566,406,36.9,2.3,28
+398,Sandwich,McDonalds,10.02,Germany,313295,532,20.5,49.4,82
+399,Chips,Nestle,2.17,Australia,447136,591,20.3,40.8,29
+400,Chocolate,Dominos,13.7,Australia,114388,748,27.3,43.7,17
+401,Hot Dog,Pepsi,13.78,South Korea,203303,539,59.9,28.8,68
+402,Burger,Pizza Hut,12.03,South Korea,478573,731,8,6.5,44
+403,Ice Cream,Burger King,1.59,South Korea,270406,747,36.8,15.5,61
+404,Hot Dog,Burger King,2.27,Brazil,334125,168,9.5,76.1,93
+405,Sandwich,Pizza Hut,4.54,Brazil,388095,756,13.5,32.7,68
+406,Ice Cream,Coca-Cola,3.27,Australia,390243,182,29.2,37.3,74
+407,Fries,McDonalds,6.88,South Korea,86972,1011,33.1,4.2,25
+408,Soda,Lays,13.96,France,342629,304,19.2,3,95
+409,Fries,Dominos,7.87,Japan,59722,1054,22.4,57.4,67
+410,Hot Dog,Subway,1.68,Germany,356643,554,9.8,43,2
+411,Sandwich,Nestle,5.32,Germany,186890,993,21.7,40.7,89
+412,Chips,McDonalds,2.1,Brazil,428148,896,58.2,19.4,49
+413,Hot Dog,Nestle,1.99,Australia,274045,420,57,59.6,70
+414,Burger,Dominos,5.22,Canada,122473,919,23.4,13.5,26
+415,Fried Chicken,KFC,5.22,UK,497239,321,36.4,15.2,72
+416,Hot Dog,KFC,12.13,UK,275741,423,55,36.9,99
+417,Soda,McDonalds,14.66,Brazil,396775,408,5.3,22.9,27
+418,Soda,Pepsi,6.51,Canada,331053,571,49.6,19.8,89
+419,Hot Dog,Dominos,7.29,Brazil,339535,513,57.2,51.6,18
+420,Ice Cream,Dominos,12.9,UK,220286,527,10,52.1,54
+421,Fried Chicken,Pizza Hut,5.12,Canada,406479,729,13.9,66,1
+422,Burger,Pepsi,3.61,South Korea,330437,1040,57.8,33.4,61
+423,Hot Dog,Lays,13.02,Australia,248896,871,34.6,5.8,3
+424,Ice Cream,Lays,2.13,Germany,161877,1030,5.8,21.9,68
+425,Soda,Subway,9.87,France,489895,754,19.2,78.4,41
+426,Soda,Burger King,9.09,India,16874,171,29.7,47.7,37
+427,Sandwich,KFC,6.17,Australia,229137,532,43.1,56.8,51
+428,Hot Dog,Lays,5.76,South Korea,353546,283,45.3,0.6,15
+429,Fried Chicken,Pepsi,11.92,UK,281223,1198,59.7,41.5,8
+430,Pizza,Dominos,2.67,South Korea,448066,652,20.8,3,38
+431,Fried Chicken,Lays,4.7,Brazil,339923,293,34.6,45.5,83
+432,Soda,Dominos,11.39,Canada,100408,373,34.3,73.7,56
+433,Soda,Lays,8.9,Germany,407234,369,27.3,77.5,47
+434,Fries,KFC,3.23,Japan,125606,328,14.3,43.2,90
+435,Soda,Nestle,13.41,Brazil,447716,582,58.8,36.7,10
+436,Burger,Lays,6.81,Australia,125062,414,51.9,75.6,78
+437,Chocolate,Pepsi,12.68,Brazil,17100,1103,32.4,53.9,49
+438,Hot Dog,Lays,12.13,Australia,324165,578,38.2,5.2,41
+439,Fried Chicken,Burger King,9.93,Japan,155872,565,17.5,37.3,83
+440,Chocolate,KFC,8.18,USA,395270,876,34.9,19.2,30
+441,Ice Cream,Pepsi,14.72,Germany,199472,346,43.2,37.6,5
+442,Pizza,Pizza Hut,3.46,France,359590,629,33.3,36.4,95
+443,Burger,Pepsi,11.29,France,296581,1039,59.5,46.6,71
+444,Fried Chicken,Burger King,4.08,India,239196,1074,38.6,28.5,83
+445,Chocolate,Nestle,6.07,South Korea,212609,272,25.4,13.1,31
+446,Pizza,KFC,5.67,USA,444891,927,47.5,40.3,52
+447,Fries,Pizza Hut,14.28,France,156014,497,14.4,66.4,88
+448,Burger,Burger King,14.56,Brazil,288006,178,26.1,53.1,98
+449,Burger,Burger King,3.97,South Korea,278813,1124,24.1,27.1,23
+450,Fries,McDonalds,1.8,USA,388363,184,28.7,74.8,48
+451,Hot Dog,KFC,11.22,Canada,189844,772,48,73,40
+452,Fries,Pepsi,7.14,Canada,283060,738,31.6,16.7,6
+453,Burger,Dominos,2.7,South Korea,278022,1053,48.7,3.2,38
+454,Burger,Nestle,10.73,Australia,270129,669,36.7,59.3,41
+455,Chocolate,Dominos,8.86,Australia,496121,271,23.8,66.2,27
+456,Soda,Pepsi,14.74,Brazil,209720,489,49.5,77.4,75
+457,Pizza,Pepsi,4.57,USA,46235,324,18.1,71.2,69
+458,Fries,KFC,6.95,USA,286075,746,17.3,48,57
+459,Pizza,Pepsi,8.82,South Korea,97876,600,32.7,42.4,17
+460,Fries,McDonalds,12.19,UK,5336,706,19.3,2.2,71
+461,Ice Cream,Pizza Hut,8.91,Canada,310077,1189,5.5,19.7,91
+462,Burger,Pepsi,9.77,USA,483115,158,40.7,36.8,47
+463,Soda,Dominos,4.55,South Korea,312680,483,33.1,50.3,79
+464,Chocolate,Pepsi,12.93,Japan,74504,1166,29.5,44.6,13
+465,Soda,McDonalds,7.29,India,104214,476,58.2,59.4,11
+466,Soda,Lays,3.4,Japan,187220,164,36.4,22.4,90
+467,Soda,Lays,10.47,Germany,118936,988,52.5,45.2,86
+468,Pizza,Burger King,4.42,Brazil,21279,375,12.7,7.1,92
+469,Fries,Nestle,2.82,USA,204737,262,36.3,33.1,24
+470,Chips,Subway,13.14,Germany,108751,150,52.7,60,93
+471,Ice Cream,Pizza Hut,7.71,France,371577,415,37.1,55.5,73
+472,Fried Chicken,Coca-Cola,11.62,Germany,76386,1101,44.5,79.3,4
+473,Soda,Burger King,5.42,South Korea,91124,455,25.5,22.2,46
+474,Hot Dog,Nestle,12.12,USA,372894,161,10.1,39.9,18
+475,Pizza,Lays,3.01,India,344629,1086,30.2,26.4,43
+476,Chocolate,Dominos,6.31,South Korea,341199,569,26.7,35.2,80
+477,Fried Chicken,Coca-Cola,14.7,South Korea,96911,1038,52.7,68.6,33
+478,Chips,Nestle,12.22,Brazil,365762,320,18.4,54.7,93
+479,Hot Dog,Nestle,8.21,Brazil,475489,283,58.2,70.6,10
+480,Chips,Burger King,6.09,Canada,202742,1114,57.7,16.3,73
+481,Fried Chicken,Coca-Cola,13.27,Canada,474690,1198,18.6,69.9,59
+482,Soda,KFC,8.86,Australia,452244,807,24.1,4.8,31
+483,Hot Dog,Subway,11.74,UK,226094,328,54.3,71.1,28
+484,Chips,KFC,11.68,USA,381036,260,58.2,26.3,60
+485,Chocolate,Coca-Cola,1.74,USA,489848,286,29.4,25.2,3
+486,Fries,KFC,3.2,Germany,242723,381,22.7,41,55
+487,Burger,McDonalds,10.4,USA,338272,1141,33.9,75.3,14
+488,Fries,Lays,3.68,USA,416324,617,42.8,3.8,58
+489,Fried Chicken,McDonalds,4.95,UK,319639,881,20,28.2,89
+490,Pizza,Pepsi,14.28,France,87806,630,45.5,68.5,15
+491,Burger,KFC,9.06,Canada,360329,963,7.8,31.7,2
+492,Ice Cream,Pepsi,11.63,Canada,212605,1143,7.7,15.9,24
+493,Chocolate,Dominos,9.03,India,235097,472,26.2,34,78
+494,Ice Cream,Pizza Hut,8.96,USA,455046,1071,24.4,30.8,64
+495,Hot Dog,Dominos,2.77,UK,472856,1053,22.4,73.2,71
+496,Burger,Coca-Cola,6.14,Canada,450725,755,32,61,24
+497,Ice Cream,Nestle,5.31,UK,202478,578,22.6,40.4,27
+498,Ice Cream,Lays,6.77,Japan,492436,297,15.6,79.1,37
+499,Chips,KFC,12.28,France,175591,999,22,37.2,94
+500,Fries,Burger King,6.52,USA,316793,516,58.6,4.7,91
+501,Chips,Pizza Hut,7.6,India,170596,999,27.6,21,39
+502,Burger,Subway,6.86,Germany,494709,962,29.5,34.9,63
+503,Burger,Subway,2.76,Canada,169957,324,36.7,12.6,79
+504,Fried Chicken,Subway,7.45,Japan,442585,737,59.1,75.8,26
+505,Chips,KFC,4.14,UK,237204,644,18.3,61.3,65
+506,Sandwich,Subway,4.02,Brazil,362546,1122,42.5,21.5,4
+507,Fries,McDonalds,2.77,South Korea,297820,184,44.4,47.3,29
+508,Burger,Pizza Hut,6.32,USA,331237,1148,38.4,57.7,1
+509,Fried Chicken,McDonalds,11.73,USA,445980,687,9.9,75.3,50
+510,Chips,Nestle,5.23,Japan,186871,899,42.2,70.5,86
+511,Fries,Pizza Hut,5.72,UK,346558,1187,8.5,41.2,11
+512,Chips,McDonalds,10.18,Australia,360239,523,37.8,62,74
+513,Ice Cream,Pizza Hut,4.14,USA,248154,706,45.7,45,59
+514,Fried Chicken,Nestle,13.61,Australia,77307,382,16.6,44.2,62
+515,Fries,Pepsi,8.52,Brazil,480278,854,51.3,9.2,81
+516,Soda,KFC,7.54,Japan,362576,712,6.7,10.1,36
+517,Hot Dog,KFC,9.03,UK,299067,1088,51.4,42.4,56
+518,Hot Dog,Subway,3.74,UK,384593,1036,30.3,21.5,90
+519,Fries,Dominos,9.78,France,499955,875,17,1.7,21
+520,Chips,Subway,6.4,South Korea,240998,225,12.4,57.8,13
+521,Fried Chicken,Coca-Cola,13.61,Canada,476604,588,57.4,2.6,9
+522,Hot Dog,McDonalds,3.78,Canada,314718,848,9,47.6,11
+523,Fried Chicken,Pizza Hut,8.35,Germany,441607,1064,16,43.1,75
+524,Hot Dog,Dominos,9.57,India,126757,1040,24.1,77.5,70
+525,Ice Cream,Nestle,1.95,Japan,58664,841,39.1,38.7,1
+526,Chips,Coca-Cola,6.41,Brazil,334528,402,35,5.1,70
+527,Ice Cream,Nestle,11.39,UK,298171,559,11.9,44.1,77
+528,Hot Dog,KFC,12.58,South Korea,171536,276,20.9,67.3,86
+529,Soda,KFC,5.73,Australia,301629,741,18.1,79.7,56
+530,Soda,Subway,12.28,Japan,264438,443,16.7,34.4,31
+531,Ice Cream,McDonalds,14.56,Germany,155528,1169,27.6,25.6,86
+532,Soda,Dominos,13.07,Japan,473011,459,43.7,72.5,37
+533,Hot Dog,Lays,3.09,Germany,302698,811,17,15.3,47
+534,Fries,Coca-Cola,11.49,UK,314066,677,25.2,49.2,91
+535,Ice Cream,Coca-Cola,5.82,India,280553,689,26.5,32.5,78
+536,Pizza,Subway,14.84,Germany,205399,568,58.7,3.3,47
+537,Chips,KFC,8.05,UK,227472,593,57.5,27.8,69
+538,Soda,Subway,3.15,UK,303783,834,49,21.2,58
+539,Soda,Pizza Hut,11.29,India,236182,989,18.3,54.9,36
+540,Burger,Dominos,5.86,Canada,461843,385,8.7,75.9,32
+541,Sandwich,McDonalds,14.96,Japan,481640,363,22.4,21.4,98
+542,Ice Cream,Pepsi,14.73,USA,286836,234,19.7,64.9,64
+543,Chocolate,Burger King,10.36,USA,94037,943,32.8,4.4,71
+544,Soda,Burger King,3.25,Australia,214912,234,47.8,43,42
+545,Chips,Subway,10.77,Australia,190272,214,52.2,5.6,48
+546,Pizza,Pizza Hut,2.76,USA,229135,812,51.5,74.7,74
+547,Soda,Dominos,1.9,Brazil,193487,776,24.8,61.3,81
+548,Pizza,Lays,12.61,USA,23074,213,42.8,52.6,30
+549,Hot Dog,Burger King,4.33,Australia,151621,1088,22.2,65.9,21
+550,Hot Dog,Dominos,6.62,South Korea,297107,1068,8.3,51.8,60
+551,Sandwich,McDonalds,14.64,Australia,489672,640,43.6,77.5,13
+552,Fries,Nestle,6.05,Brazil,232434,462,5.5,57.1,1
+553,Chocolate,Pizza Hut,5.5,Japan,237679,764,27.5,74,65
+554,Burger,KFC,13.9,USA,57265,1068,23.1,41.4,33
+555,Sandwich,Dominos,3,India,21061,962,43.1,9.4,38
+556,Fried Chicken,McDonalds,11.75,South Korea,456442,1089,47.1,42.3,25
+557,Burger,Lays,14.84,UK,164882,829,21.7,10.1,26
+558,Ice Cream,Pepsi,13.67,Brazil,458222,584,49.6,47.4,77
+559,Chips,KFC,10.3,Australia,118502,831,21.2,38.6,59
+560,Fried Chicken,Pepsi,5.74,India,289944,489,29.5,49.8,92
+561,Fried Chicken,Lays,4.93,Germany,383336,496,45,0.8,33
+562,Sandwich,McDonalds,12.56,Canada,261505,795,43.1,15.6,41
+563,Fries,Burger King,13.38,USA,112228,798,59.3,39.3,30
+564,Sandwich,Pepsi,8.59,Canada,211548,394,17.4,76,57
+565,Ice Cream,KFC,4.8,Brazil,467676,258,41.4,30.7,49
+566,Soda,Subway,3.02,Germany,455983,682,38.5,33.9,48
+567,Soda,Coca-Cola,2.68,Germany,295198,445,55.3,57.2,72
+568,Fries,Dominos,11.21,Germany,473535,261,13.6,48.3,49
+569,Ice Cream,Burger King,7.17,UK,181469,492,46.3,23.9,47
+570,Fries,Pepsi,13.72,Brazil,18233,250,36.3,32.9,56
+571,Pizza,Nestle,11.49,Japan,247277,778,20.1,17.4,65
+572,Soda,Dominos,4.08,Canada,488236,177,31.1,77.3,12
+573,Fried Chicken,Subway,9.79,Japan,161140,1086,23.4,10.5,69
+574,Chocolate,Lays,7.38,India,332871,207,36.9,29.7,88
+575,Chips,Coca-Cola,9.29,France,357754,446,53.9,2.1,6
+576,Ice Cream,McDonalds,11.46,South Korea,337597,283,36.3,17.7,89
+577,Burger,Subway,12.38,South Korea,109135,398,39.7,62.4,65
+578,Fries,Subway,12.89,Japan,424048,1170,33.5,16.1,25
+579,Chips,Lays,4.93,France,375608,699,7.8,6.4,1
+580,Burger,Pizza Hut,1.92,France,222314,1051,17.8,38,32
+581,Chips,Lays,11.48,USA,18682,983,32.1,0.8,3
+582,Chocolate,Pizza Hut,2.94,India,490514,920,22.1,6.8,49
+583,Burger,Pizza Hut,5.75,Brazil,159455,295,15,64.6,19
+584,Sandwich,Burger King,1.55,France,325304,1042,32.7,61.7,60
+585,Hot Dog,Burger King,10.7,Australia,229404,493,22.8,73.2,29
+586,Sandwich,KFC,3.76,South Korea,290810,851,19.2,68.4,50
+587,Soda,Pepsi,10.35,Australia,325961,150,30.5,54.7,2
+588,Hot Dog,Pepsi,14.89,India,96198,302,12.3,4.2,73
+589,Sandwich,McDonalds,2.48,France,432858,578,56,62.6,56
+590,Hot Dog,Pepsi,2.54,Canada,46830,657,52.7,67.6,17
+591,Hot Dog,Burger King,6.1,South Korea,15234,640,43.9,63.9,60
+592,Fried Chicken,KFC,13.2,USA,62616,494,10.8,40.7,36
+593,Fries,KFC,4.41,USA,276365,370,47.7,18.6,61
+594,Fries,Pizza Hut,6.37,Germany,147482,872,49.4,67.6,17
+595,Fried Chicken,Lays,2.42,UK,216127,1198,47.2,58.2,49
+596,Chips,McDonalds,11.8,France,197485,677,11.3,78.5,76
+597,Pizza,Pizza Hut,7.01,India,6051,990,40.4,12.5,60
+598,Chips,Lays,11.75,South Korea,377673,630,50.9,18.1,20
+599,Burger,Pepsi,13.7,UK,473517,1079,36.8,16.9,50
+600,Burger,Pizza Hut,4.64,India,81918,1021,40.6,63.4,3
+601,Hot Dog,Dominos,12.4,Japan,83116,494,30.2,15,43
+602,Sandwich,Pepsi,2.3,France,389370,194,34.1,5.3,57
+603,Sandwich,Lays,13.63,Brazil,454779,170,6.9,79.9,50
+604,Fries,McDonalds,10.29,Brazil,233931,1022,40.1,2,68
+605,Ice Cream,Lays,13.3,France,311901,197,9.5,66.8,81
+606,Chips,Pizza Hut,1.5,Germany,388152,700,28.9,29.2,50
+607,Soda,Pizza Hut,3.78,Germany,213547,436,21.1,67.3,37
+608,Chocolate,Subway,6.76,Brazil,449473,1151,35,44.4,46
+609,Sandwich,McDonalds,6.62,Canada,231572,1183,12.3,72.1,42
+610,Chocolate,Nestle,4.56,South Korea,136379,691,43,74.1,15
+611,Hot Dog,Pepsi,6.65,Brazil,61889,905,48.7,0.7,33
+612,Chocolate,KFC,3.24,Canada,467111,423,14,6,80
+613,Soda,McDonalds,7.07,UK,231256,1105,10.7,20,11
+614,Fried Chicken,KFC,12.33,Canada,303088,749,13,53.5,20
+615,Soda,McDonalds,7.97,UK,366699,530,53.2,71.1,24
+616,Chocolate,McDonalds,1.74,India,43134,628,34.1,36.8,64
+617,Soda,Lays,7.19,Australia,425539,164,30.7,48.6,80
+618,Pizza,McDonalds,1.87,India,207834,665,10.9,15.1,94
+619,Hot Dog,Subway,14.54,Brazil,485441,340,40.7,64.4,98
+620,Chips,Nestle,3.22,UK,232579,770,52.7,77.4,65
+621,Fried Chicken,Pizza Hut,11.05,Brazil,30954,303,50.6,21.5,88
+622,Sandwich,Coca-Cola,14.63,France,191093,421,39.4,39.6,88
+623,Burger,KFC,12.65,South Korea,357103,292,9.1,6.9,73
+624,Chips,Pizza Hut,10.94,USA,231999,396,11.2,44.7,86
+625,Burger,Coca-Cola,12.83,Brazil,215938,937,7.7,40.2,76
+626,Hot Dog,Nestle,14.75,South Korea,206499,228,19.2,11.6,17
+627,Fried Chicken,Nestle,9.89,Canada,272136,772,12.5,35.4,89
+628,Fries,KFC,9.05,India,6961,674,19.3,26.7,92
+629,Sandwich,KFC,9.98,Canada,17497,921,26.2,41.7,61
+630,Pizza,Nestle,8.69,USA,430767,1087,56.9,46.9,15
+631,Fries,Coca-Cola,10.07,UK,474600,766,38.6,0.7,94
+632,Hot Dog,McDonalds,7.57,France,261446,1181,50.9,60.9,51
+633,Chips,Pepsi,4.45,South Korea,453971,216,44.1,57,27
+634,Pizza,Dominos,3.12,France,280399,340,11.2,29.3,86
+635,Soda,Pizza Hut,2.42,Australia,140639,917,45.5,4.2,74
+636,Chocolate,Lays,5.05,Brazil,315991,670,20.1,60.4,61
+637,Pizza,Pizza Hut,2.12,UK,240889,1139,40.2,76.4,58
+638,Hot Dog,Lays,9.16,Australia,184075,416,23.8,19.2,31
+639,Ice Cream,Coca-Cola,5.33,Japan,25389,634,59.9,25.9,91
+640,Chocolate,Lays,12.63,Brazil,180595,525,19.5,14.7,12
+641,Burger,KFC,2.5,Canada,390946,802,20.4,46.2,46
+642,Sandwich,Pepsi,4.56,India,328720,698,56.2,12.4,31
+643,Burger,Pepsi,11.36,South Korea,311063,222,6.4,28.5,32
+644,Pizza,KFC,9.58,USA,218175,457,43.3,55.8,32
+645,Burger,Subway,2.37,USA,8358,348,44.9,44.8,99
+646,Hot Dog,Coca-Cola,13.34,Canada,355679,721,51,30.9,53
+647,Soda,Subway,13.34,Germany,257557,940,58.6,33.6,61
+648,Chips,Subway,5.96,USA,212596,328,58.7,45,46
+649,Sandwich,Pizza Hut,6.1,South Korea,259488,346,8.6,0.5,85
+650,Burger,Nestle,14.85,Canada,110982,884,50.2,6.3,74
+651,Burger,Pizza Hut,9.95,UK,233129,238,40.5,70.5,80
+652,Pizza,Nestle,8.67,USA,272842,948,40.6,6.2,7
+653,Chips,Dominos,12.82,France,333953,937,12.1,56.5,4
+654,Fries,Lays,5.35,Canada,98079,897,40.8,73.6,91
+655,Burger,Nestle,7.29,South Korea,60805,358,59,21.7,52
+656,Hot Dog,KFC,5.11,France,167421,642,55.2,29.6,89
+657,Ice Cream,Pizza Hut,12.15,Brazil,212849,814,29.2,45.5,31
+658,Sandwich,Coca-Cola,9.24,Brazil,448464,1186,7.2,70.5,75
+659,Burger,Lays,10.39,USA,342177,1020,24.9,75.4,84
+660,Hot Dog,Dominos,4.91,France,243483,881,50.5,59.2,36
+661,Hot Dog,Nestle,4.47,India,365383,847,43.6,6.9,54
+662,Sandwich,Dominos,8.09,Brazil,397551,743,30.3,53.5,54
+663,Fries,Coca-Cola,11.46,India,49041,1035,8,32.8,17
+664,Hot Dog,Subway,8.59,UK,299098,1001,28.5,37.7,75
+665,Ice Cream,Pepsi,1.94,Canada,275146,474,30.8,3.9,30
+666,Hot Dog,Coca-Cola,13.23,Australia,336927,1128,56.1,15.3,99
+667,Hot Dog,Burger King,2.37,South Korea,112524,1105,40.3,63.2,22
+668,Hot Dog,Coca-Cola,14.4,Canada,223306,1043,22.1,36.3,43
+669,Soda,Dominos,1.84,South Korea,392001,293,33.9,24.1,27
+670,Soda,KFC,10.88,France,24738,533,8.6,30.7,37
+671,Fries,Pizza Hut,2.61,UK,277847,365,58.5,68.4,46
+672,Burger,KFC,13.79,Japan,118776,473,24.8,59.9,35
+673,Hot Dog,Dominos,7.77,USA,185494,1188,31.3,21.8,4
+674,Chips,Pizza Hut,3.36,South Korea,481322,366,24.5,9.4,80
+675,Burger,Burger King,6.1,South Korea,197971,1100,42.5,20.2,80
+676,Fries,Pepsi,3.73,France,410608,332,41.4,73.7,85
+677,Fried Chicken,Lays,3.8,India,311868,419,44.3,46.5,26
+678,Burger,Dominos,14.3,Canada,299443,1094,19.7,42.7,19
+679,Burger,Nestle,7.51,Japan,282785,1019,22.4,47.7,81
+680,Chocolate,Dominos,12.15,Germany,346678,616,11.9,29.3,45
+681,Pizza,Dominos,10.13,USA,273449,454,41.1,64.6,26
+682,Chocolate,Pizza Hut,10.63,Australia,234334,260,7.2,41.9,22
+683,Ice Cream,McDonalds,3.28,Germany,285926,1163,37.9,9.3,58
+684,Soda,Coca-Cola,4.66,Canada,345401,381,52.8,10.3,63
+685,Soda,McDonalds,12.12,USA,241371,744,54,42.9,28
+686,Pizza,Burger King,14.61,South Korea,82963,322,29.7,74.9,65
+687,Sandwich,Nestle,5.05,Australia,126987,1122,30.3,24.7,44
+688,Sandwich,Pepsi,5.17,India,156638,1180,9.2,69.6,43
+689,Fries,Subway,7.88,Japan,129591,695,41.9,61.1,37
+690,Pizza,Burger King,14.78,India,72766,697,50.2,19.8,66
+691,Burger,Subway,5.13,UK,11511,667,18.5,2.9,17
+692,Sandwich,Subway,6.99,France,119816,1063,28.2,8.1,40
+693,Hot Dog,Pepsi,13.53,USA,254432,364,51.1,58.3,38
+694,Chips,KFC,1.54,India,424393,283,53.2,16,85
+695,Burger,McDonalds,2.04,Germany,271909,434,18.4,29.7,61
+696,Ice Cream,Dominos,9.65,France,156426,835,35.3,40.1,9
+697,Hot Dog,Lays,13.75,India,291073,480,15.6,58,77
+698,Hot Dog,Subway,4.72,Brazil,164892,1043,10.6,9.1,75
+699,Pizza,Nestle,7.84,UK,116576,1048,55.1,32.5,61
+700,Fries,Burger King,7.58,Canada,427739,227,50.1,38.8,80
+701,Ice Cream,KFC,7.89,Japan,76088,1096,46.8,43.3,16
+702,Sandwich,Subway,9.9,UK,464379,837,7.7,65.5,2
+703,Pizza,KFC,7.84,France,82525,170,51.4,13.7,72
+704,Sandwich,KFC,7.54,Brazil,18780,715,29.1,64.6,43
+705,Pizza,Subway,7.9,USA,273733,976,23.8,55.4,42
+706,Pizza,Pizza Hut,9.48,Germany,433028,328,35.1,44.5,77
+707,Pizza,Coca-Cola,8.75,Japan,360808,1054,10,56,57
+708,Fries,Nestle,13.03,Japan,444155,818,46.6,33,81
+709,Pizza,Dominos,2.17,UK,449709,340,37,11.1,88
+710,Fried Chicken,Dominos,12.75,France,109188,857,15.3,53.3,67
+711,Chips,Nestle,12.89,USA,98326,528,15.4,42,30
+712,Sandwich,Pizza Hut,5.35,South Korea,308097,536,15.1,51.1,13
+713,Burger,Dominos,7.75,Brazil,70785,386,8.1,27,19
+714,Chocolate,KFC,7.42,South Korea,24309,765,37.3,72.5,7
+715,Ice Cream,Pepsi,4.45,Germany,59195,432,51.2,47,9
+716,Soda,Burger King,6.86,USA,30901,150,6,6.8,83
+717,Fries,McDonalds,2.1,USA,159648,613,7.7,36,54
+718,Burger,Dominos,5.25,Brazil,429724,1116,36.5,60.5,86
+719,Hot Dog,Nestle,12.53,Australia,472927,321,50.1,63.5,82
+720,Fried Chicken,Pepsi,5.34,South Korea,30464,992,23,39.6,61
+721,Soda,Subway,12.55,India,458497,839,24.2,71.6,87
+722,Chocolate,Coca-Cola,8.68,Japan,283404,724,37.8,21.4,2
+723,Burger,Nestle,13.38,Australia,129997,314,20.1,32.8,50
+724,Soda,KFC,9.26,India,302584,532,6.5,71.9,75
+725,Burger,Coca-Cola,1.9,France,362226,358,45.4,71.7,31
+726,Fried Chicken,Burger King,10.62,Brazil,372727,373,39.4,54.9,33
+727,Chocolate,Burger King,2.11,France,61683,152,36.9,68.7,78
+728,Hot Dog,Pizza Hut,7.58,Japan,391350,521,45.8,7.1,80
+729,Pizza,Lays,14.05,Canada,177502,760,42.1,69.2,11
+730,Sandwich,Pizza Hut,3.73,India,400203,265,16.3,25.6,33
+731,Hot Dog,Pepsi,6.76,Australia,161177,596,24.4,14.3,7
+732,Pizza,Coca-Cola,11.35,India,83484,564,11.9,19.1,31
+733,Fries,Lays,13.41,India,254819,1041,12.1,33.4,48
+734,Chips,Subway,10.56,Brazil,411242,1197,42.2,20.1,47
+735,Ice Cream,KFC,4.99,France,335453,812,52.2,25.6,78
+736,Ice Cream,Coca-Cola,10.61,South Korea,313071,867,58,10.8,92
+737,Sandwich,Pizza Hut,5.51,Canada,211486,420,39.6,23.7,53
+738,Chocolate,McDonalds,11.2,Brazil,455751,711,15.1,45.8,80
+739,Fried Chicken,Lays,14.38,Germany,310090,953,10.8,35.3,19
+740,Chocolate,Lays,11.24,Brazil,393647,396,49.7,27.7,81
+741,Fried Chicken,KFC,13.15,Japan,454777,536,36.8,59.7,90
+742,Chocolate,Dominos,1.53,Canada,146449,851,39,71.5,6
+743,Chips,Burger King,11.19,USA,58592,708,48,60.5,49
+744,Fries,Burger King,12.7,Germany,143419,1122,43.7,26.6,73
+745,Fries,McDonalds,2.05,UK,300920,1133,50.9,59.6,50
+746,Pizza,Pepsi,13.27,Brazil,401999,501,8.1,12.2,81
+747,Soda,Pepsi,4.97,India,60798,902,46.1,10.4,95
+748,Fries,Subway,10.48,South Korea,140370,930,51.8,27.7,12
+749,Fries,Coca-Cola,12.3,USA,337348,1174,20.7,64.6,23
+750,Hot Dog,Nestle,10.45,Brazil,353351,695,40.2,19.7,54
+751,Hot Dog,Dominos,2.75,Brazil,367500,228,22.3,5.1,69
+752,Pizza,Pizza Hut,9.55,Australia,453377,483,57.7,10.5,59
+753,Soda,Nestle,8.92,Australia,327796,1038,6.8,68.7,36
+754,Sandwich,Nestle,13.65,USA,432700,651,36.9,50.7,3
+755,Hot Dog,Lays,6.96,France,496830,914,14.2,20.3,58
+756,Sandwich,McDonalds,5.83,Australia,396716,1070,44.2,44.4,88
+757,Burger,Burger King,11.62,India,248767,699,14.7,42.2,55
+758,Hot Dog,Subway,7.07,Germany,25922,163,17.9,52.4,57
+759,Chips,Pepsi,10.22,UK,432244,541,32.2,18.7,17
+760,Soda,McDonalds,10.23,Canada,418532,459,55.3,69.2,39
+761,Pizza,Lays,13.49,UK,344140,535,16.6,24.7,90
+762,Burger,Pizza Hut,9.58,UK,415184,1123,12.9,55.5,68
+763,Soda,Subway,8.28,Canada,297410,489,46.7,1.3,55
+764,Chips,Lays,3.37,Australia,231817,746,32.5,29.8,45
+765,Soda,Burger King,3.06,USA,422216,906,55.1,28.1,76
+766,Chips,Burger King,3.58,Canada,412227,1195,13.1,43.5,1
+767,Chips,Burger King,3.82,Japan,7866,440,40.5,5.8,21
+768,Sandwich,McDonalds,10.11,France,117669,455,17.8,63.2,83
+769,Chocolate,McDonalds,11.5,Germany,273042,783,13.6,17.4,21
+770,Burger,Pepsi,8.65,South Korea,285539,774,42.6,54.2,52
+771,Soda,Pepsi,12.69,Australia,175091,1088,37.7,64.3,82
+772,Fried Chicken,Pizza Hut,14.88,France,271150,997,46.5,45,43
+773,Burger,Subway,12.57,Canada,170465,591,22,59.3,52
+774,Chocolate,KFC,10.88,Japan,278100,652,29.6,52.9,67
+775,Burger,KFC,8.69,South Korea,448258,279,27.3,28.4,44
+776,Fries,Lays,7.56,Germany,494415,746,59.1,64.7,32
+777,Fried Chicken,Burger King,2.64,Germany,404294,1011,21.1,23.6,10
+778,Chocolate,Subway,6.89,Australia,427847,742,21.2,45.7,64
+779,Sandwich,Nestle,13.79,Canada,362820,1148,24.5,59.6,79
+780,Soda,McDonalds,12.41,France,126724,474,36.1,30.3,69
+781,Ice Cream,Coca-Cola,4.42,USA,67901,597,18.9,24.2,68
+782,Chocolate,Dominos,7.8,France,374371,968,55.3,36.7,28
+783,Pizza,Pizza Hut,12.53,France,205569,858,19.6,65.4,53
+784,Soda,Burger King,2.41,Germany,493029,414,54.3,74.4,51
+785,Chocolate,Burger King,6.73,USA,122192,761,10.7,43.6,53
+786,Fries,Burger King,13,USA,177646,981,41.1,52.9,4
+787,Ice Cream,McDonalds,6.95,Australia,298561,823,54.9,72.3,79
+788,Fries,McDonalds,2.55,South Korea,355164,306,14.3,7.9,17
+789,Ice Cream,Dominos,8.82,Brazil,350783,400,58.3,18.6,67
+790,Pizza,Nestle,13.13,UK,463222,1027,29.9,56.7,74
+791,Soda,Subway,9.47,UK,99881,679,57,65.9,47
+792,Sandwich,Burger King,4.55,Germany,247934,476,42.2,68.6,56
+793,Fries,KFC,6.69,Brazil,437670,1110,21.6,33.2,23
+794,Fries,Pepsi,7.58,South Korea,137659,1044,15.4,7.1,18
+795,Chips,KFC,9.32,Brazil,126688,246,21.7,35,1
+796,Ice Cream,Lays,11.75,Australia,120584,662,10.1,18.5,35
+797,Hot Dog,KFC,2.83,France,190782,365,12.9,23.3,64
+798,Soda,Lays,13.51,Germany,353711,274,10.8,61.8,58
+799,Ice Cream,Coca-Cola,1.67,USA,227820,208,28.3,6,95
+800,Chips,Pepsi,6.5,Germany,343030,310,48.8,66.2,59
+801,Burger,KFC,1.87,UK,417032,433,12.8,34.2,1
+802,Ice Cream,Coca-Cola,6.81,South Korea,221896,255,12.2,47.7,3
+803,Sandwich,Pizza Hut,8.6,Brazil,296576,377,40.4,7.2,67
+804,Soda,Subway,8.41,South Korea,184689,467,15.8,27,37
+805,Chips,Coca-Cola,3.74,Australia,339517,951,10.4,7.2,83
+806,Burger,Subway,10.22,Germany,170289,1023,14.2,76.9,29
+807,Fried Chicken,KFC,2.1,Canada,288028,621,55.8,64.6,89
+808,Chips,Nestle,11.79,Germany,272598,774,50.2,36.8,33
+809,Fried Chicken,Coca-Cola,14.28,USA,79960,162,24.5,17.9,61
+810,Soda,Pepsi,6.09,Germany,107421,1191,41.1,74.7,93
+811,Fries,KFC,8.48,Japan,243245,843,34.6,27.6,90
+812,Chips,Burger King,6.62,Australia,48618,1122,42.2,12.9,4
+813,Pizza,McDonalds,1.59,India,482164,262,42.5,45.1,14
+814,Fried Chicken,Coca-Cola,6.71,Australia,460887,378,39.6,75.5,91
+815,Sandwich,Pepsi,12.19,Brazil,52111,320,19.6,0.3,33
+816,Pizza,Pizza Hut,9.55,India,437829,444,7.1,19,22
+817,Chocolate,Burger King,2.87,Brazil,221750,338,30.1,75.1,48
+818,Chocolate,Pizza Hut,12.94,Brazil,125592,575,54,13.7,3
+819,Burger,KFC,8.67,USA,239000,1126,36.3,9.1,87
+820,Fries,McDonalds,12.86,USA,260989,807,50.8,45.6,85
+821,Soda,Coca-Cola,9.33,France,327137,1068,59.5,68.9,23
+822,Chips,Coca-Cola,9.06,UK,133652,648,14,38.2,68
+823,Hot Dog,Nestle,2.92,France,407064,911,43,79.6,21
+824,Sandwich,Nestle,3.76,France,83672,1015,42.1,54.3,43
+825,Fried Chicken,KFC,14.62,UK,255351,975,58.9,5.9,95
+826,Soda,KFC,4.58,Canada,333269,220,59.2,79.4,85
+827,Pizza,McDonalds,14.7,India,222516,397,42.8,32.6,26
+828,Chocolate,Nestle,8.68,South Korea,384653,295,18.4,23,41
+829,Sandwich,Pepsi,3.33,France,66602,731,48.9,44.6,99
+830,Hot Dog,Pepsi,2.84,Germany,208117,619,10.9,24.3,38
+831,Chips,McDonalds,4.32,Germany,242069,342,47.9,6.9,88
+832,Burger,Pepsi,14,Brazil,47222,643,55.1,0.1,11
+833,Hot Dog,Lays,7.09,UK,316367,201,26.1,36,29
+834,Sandwich,Subway,6.84,Brazil,246084,1031,39.7,66.9,60
+835,Hot Dog,McDonalds,5.73,Japan,247318,512,28.7,45.8,67
+836,Sandwich,McDonalds,3.49,Japan,70333,1066,29.1,79.9,65
+837,Sandwich,Dominos,8.09,South Korea,188804,623,22.1,22.9,61
+838,Ice Cream,Burger King,3.26,USA,389794,670,46.9,22.4,19
+839,Fried Chicken,Burger King,12.78,USA,54420,840,56.5,12.8,46
+840,Chocolate,Lays,6.5,UK,80504,681,56.7,13.1,49
+841,Ice Cream,Nestle,6.56,UK,7462,989,14.6,22.8,22
+842,Chips,KFC,7.9,France,276604,390,53.1,63.4,78
+843,Ice Cream,KFC,7.5,Japan,104319,685,45.6,72.5,57
+844,Fries,Pizza Hut,14.93,France,261674,232,18.9,78,14
+845,Fries,Lays,8.86,USA,145347,1131,8.7,18.6,44
+846,Chocolate,McDonalds,2.69,India,492429,1100,19.7,70.5,16
+847,Hot Dog,Lays,9.69,India,149341,760,55.2,26.3,97
+848,Fried Chicken,Lays,3.55,UK,134593,723,39.8,9,77
+849,Chocolate,Lays,1.92,Brazil,127672,435,44.7,69.6,12
+850,Sandwich,Burger King,14.61,USA,464158,1138,19.1,50.9,55
+851,Pizza,Lays,11.94,India,340064,608,44.6,13.2,51
+852,Fried Chicken,Subway,14.73,USA,289697,275,6.5,34.4,39
+853,Fried Chicken,KFC,7.95,Australia,422582,574,25.6,23,33
+854,Sandwich,Pizza Hut,8.69,Germany,49036,703,39.5,58.9,33
+855,Sandwich,Subway,3.77,Japan,153441,759,13,36.3,29
+856,Burger,Pizza Hut,4.83,France,147867,261,50.3,79.1,69
+857,Chocolate,Dominos,12.82,USA,75021,551,17.9,4.4,70
+858,Sandwich,Pizza Hut,6.31,Germany,374349,271,40.9,28.4,31
+859,Fries,KFC,12.66,Australia,466370,422,27.3,38.6,80
+860,Chips,KFC,11.07,France,166215,547,37.8,40.3,31
+861,Pizza,Lays,3.89,USA,427641,620,10.9,25.3,89
+862,Chocolate,Coca-Cola,8.35,UK,355353,1134,5.9,58.3,46
+863,Soda,Dominos,10.64,Germany,342283,718,55,70,97
+864,Fries,McDonalds,4.67,France,241304,1046,19.8,75.1,77
+865,Hot Dog,Pepsi,12.71,USA,10368,969,50.1,64.4,52
+866,Sandwich,Pizza Hut,8.86,Germany,140693,1002,60,68,10
+867,Soda,Coca-Cola,3.73,Australia,63829,859,16.6,44,88
+868,Sandwich,Lays,9.37,USA,396180,470,19.6,66.1,74
+869,Fried Chicken,Burger King,15,USA,458510,328,41.5,24.3,41
+870,Fries,McDonalds,3.53,USA,281863,1046,58.1,31.9,95
+871,Fried Chicken,Nestle,12.53,South Korea,34227,368,55.4,25.4,77
+872,Burger,Coca-Cola,4.3,UK,114430,938,32.7,37.4,3
+873,Fried Chicken,Burger King,12.06,Australia,405782,641,48.7,22.8,59
+874,Burger,Dominos,11.42,France,17306,210,12.5,76.9,52
+875,Burger,Lays,5.56,South Korea,58822,687,58.8,25,34
+876,Soda,McDonalds,5.9,Brazil,29042,997,58,7.8,49
+877,Sandwich,McDonalds,12.2,South Korea,413302,1137,14,42.1,28
+878,Hot Dog,McDonalds,7.73,Japan,153459,214,21.5,4.6,83
+879,Fried Chicken,Dominos,11.37,Japan,425258,735,10.5,8.8,87
+880,Fries,Pizza Hut,3.5,USA,94424,320,19.9,17.6,96
+881,Burger,Nestle,13.01,South Korea,187690,684,49.9,37.1,13
+882,Sandwich,Dominos,11.1,Brazil,228122,842,25.8,34.7,97
+883,Pizza,Pepsi,13.74,South Korea,154395,257,9.9,64,98
+884,Chocolate,Nestle,3.29,UK,23019,963,23.8,59.2,97
+885,Soda,KFC,9.51,UK,342570,1154,59,34.1,69
+886,Hot Dog,Lays,9.59,Brazil,45863,601,39.6,26.7,67
+887,Ice Cream,Dominos,6.27,South Korea,116023,739,27.9,25.3,61
+888,Soda,Burger King,7.69,Germany,146355,1189,14.2,61.9,60
+889,Pizza,Nestle,2.01,UK,416495,476,59.2,4.2,71
+890,Chocolate,Pepsi,11.57,UK,314143,757,50.1,1,24
+891,Pizza,KFC,8.92,India,67780,808,20.5,63.6,63
+892,Fried Chicken,Pizza Hut,2.28,South Korea,290052,151,8.9,38.2,86
+893,Burger,Burger King,10.69,UK,197656,1183,8.1,10.5,61
+894,Hot Dog,Nestle,7.8,Australia,393422,583,11.6,18.8,23
+895,Chips,Lays,1.97,South Korea,380146,274,36.9,74.6,30
+896,Burger,Burger King,14.59,Japan,448441,634,56.1,68.8,60
+897,Chips,KFC,14.31,India,174024,801,32.3,56.8,18
+898,Chocolate,Burger King,8.42,UK,105706,949,51.4,38.6,96
+899,Sandwich,Subway,2.76,India,173735,1022,29.5,41.6,56
+900,Ice Cream,Coca-Cola,11.69,Japan,127019,278,44,78,53
+901,Fries,Pizza Hut,8.14,Brazil,376852,587,45.3,77.3,7
+902,Burger,KFC,5.58,Brazil,197453,900,14.6,17.2,97
+903,Hot Dog,Burger King,8.13,South Korea,184001,650,24.9,64.9,69
+904,Pizza,Coca-Cola,8.55,Japan,276487,360,40.1,15.8,92
+905,Hot Dog,Coca-Cola,9.1,Canada,343317,1051,8.9,17.1,72
+906,Chocolate,Burger King,7.46,Canada,105260,194,24.9,54.1,79
+907,Chips,Lays,9.68,South Korea,175863,684,34.4,32.4,52
+908,Pizza,Subway,13.9,USA,165206,610,59.8,74.5,4
+909,Fries,Dominos,6.39,India,183173,540,31.1,7.1,34
+910,Fries,Subway,11.3,India,74443,176,49.9,40.9,69
+911,Burger,Burger King,13.58,Brazil,235183,943,28.8,73.5,33
+912,Chocolate,Pizza Hut,7.66,Canada,324674,1124,48.8,72.3,69
+913,Sandwich,Dominos,7.49,France,445015,697,37.7,12.5,38
+914,Chocolate,KFC,9.63,UK,140899,770,53.8,29.3,98
+915,Chips,Subway,9.48,UK,101143,716,27.6,49.5,26
+916,Hot Dog,Burger King,12.39,UK,198725,853,38.2,12.8,1
+917,Fries,Subway,7.93,Brazil,149771,334,39.7,77.4,4
+918,Hot Dog,Dominos,14.95,Japan,489635,997,28,73.2,39
+919,Hot Dog,Pepsi,2.3,Germany,381671,748,12.9,13.4,54
+920,Hot Dog,Nestle,1.54,Canada,253044,955,10.1,9.7,90
+921,Fries,Subway,10.14,Canada,141385,228,5.9,6.8,33
+922,Soda,KFC,5.53,France,149670,728,53,72.8,33
+923,Fried Chicken,KFC,4.75,India,116362,562,18,15.5,72
+924,Chips,McDonalds,5.71,USA,251517,695,16.6,33.3,20
+925,Soda,Subway,4.96,South Korea,295951,318,45.5,35.9,16
+926,Chips,Nestle,1.92,India,468639,830,22.6,47.9,21
+927,Pizza,Lays,14.62,Japan,205462,732,32.8,5.7,45
+928,Chocolate,Coca-Cola,4.48,South Korea,181298,664,13.9,18.1,90
+929,Chocolate,Nestle,11.41,Canada,64550,181,57.8,74.5,87
+930,Ice Cream,Coca-Cola,11.8,Japan,478288,436,51.8,72.7,82
+931,Chocolate,Coca-Cola,14.04,South Korea,270702,743,52.5,62.5,62
+932,Fries,Pepsi,1.91,France,473524,766,27.4,1.6,31
+933,Sandwich,McDonalds,13.27,France,317257,1174,46.9,26.2,42
+934,Burger,Nestle,8.62,Australia,320143,419,12.9,50.2,12
+935,Ice Cream,Nestle,10.04,Germany,191950,667,5.5,22,65
+936,Burger,Pepsi,10.2,France,434559,1183,6.1,72.8,73
+937,Chips,Subway,12.57,Canada,63219,732,37.3,50.7,3
+938,Burger,Subway,6,USA,171258,375,30,5.8,90
+939,Burger,Subway,11.4,UK,435182,819,33.5,72.7,9
+940,Ice Cream,Pizza Hut,8.64,Australia,169841,1066,5.4,76.6,51
+941,Pizza,Coca-Cola,12.21,UK,256004,275,28.2,6.2,16
+942,Hot Dog,Pizza Hut,14.87,Germany,262336,1105,44.5,42.6,88
+943,Chocolate,McDonalds,4.21,South Korea,241495,223,29.3,24.3,78
+944,Chocolate,Pepsi,14.93,Brazil,58218,205,45.3,31.4,3
+945,Fries,Nestle,2.71,France,286373,869,17.8,14.4,98
+946,Ice Cream,Coca-Cola,1.53,USA,342353,702,49.7,46.2,97
+947,Fries,Pizza Hut,2.1,Germany,32877,181,37.4,76.6,24
+948,Sandwich,Pizza Hut,6.11,UK,194073,723,16.6,40.2,73
+949,Sandwich,Burger King,10.04,Australia,364281,816,18,6.6,13
+950,Fries,Pizza Hut,2.43,France,305228,433,39.5,49.6,2
+951,Ice Cream,Lays,1.58,Canada,348924,336,50.6,27.2,71
+952,Fries,Nestle,14.15,France,491108,647,27.9,68.5,21
+953,Chocolate,Lays,12.6,Australia,152878,279,19.2,34.8,19
+954,Soda,Nestle,12.42,Australia,224707,788,52.7,15.4,89
+955,Fried Chicken,Pepsi,13.44,Brazil,246249,263,41.8,15.3,47
+956,Burger,Nestle,10.95,France,42034,162,29.6,61.5,22
+957,Fried Chicken,Lays,2.91,France,176389,593,31.8,21.2,75
+958,Ice Cream,Nestle,6.89,Brazil,322612,596,16.2,61.4,33
+959,Fried Chicken,Pepsi,11.26,Japan,417310,1135,39.5,16.5,32
+960,Sandwich,Pepsi,5.28,Japan,193868,1142,24.7,25.7,64
+961,Chips,McDonalds,10.78,South Korea,15589,864,59.8,37.2,85
+962,Burger,Nestle,1.83,Japan,62221,223,31.4,75.5,39
+963,Hot Dog,Burger King,5.63,India,260927,686,31.7,74.5,84
+964,Ice Cream,Subway,8.91,France,268801,250,36.1,16.5,72
+965,Burger,KFC,10.03,USA,365444,325,55.4,28.7,42
+966,Fried Chicken,Pepsi,9.29,France,122229,576,49,12,9
+967,Sandwich,Dominos,10.92,India,306675,190,29.8,40.8,25
+968,Pizza,Subway,1.58,India,57227,578,44.5,36.8,89
+969,Soda,Coca-Cola,2.86,UK,270308,493,37.2,72.1,97
+970,Hot Dog,Nestle,13.23,France,98078,515,32.1,74.4,2
+971,Soda,Lays,10.7,Germany,482189,758,15.6,30.7,19
+972,Burger,KFC,3.02,India,308391,806,30.5,39.3,20
+973,Sandwich,Dominos,12.87,USA,240113,877,18.5,71.7,93
+974,Sandwich,Subway,4.77,Brazil,417817,378,55.3,64.5,70
+975,Fried Chicken,Nestle,7.96,South Korea,492182,974,23.4,0.3,17
+976,Chocolate,McDonalds,3.46,UK,55599,1038,57.4,25.6,89
+977,Fried Chicken,Coca-Cola,11.09,Brazil,469761,1133,34.3,33.7,68
+978,Chocolate,KFC,10.5,UK,251367,985,39.7,18.4,94
+979,Chocolate,Burger King,4.35,USA,402768,266,34.9,16,84
+980,Hot Dog,McDonalds,13.16,Australia,407633,967,12.1,3,3
+981,Fried Chicken,Dominos,6.92,France,194651,517,25.7,51.5,87
+982,Pizza,KFC,5.45,Canada,73207,317,10.5,21,51
+983,Fries,McDonalds,3.56,Germany,339199,1103,39.3,4.2,82
+984,Fries,Coca-Cola,5.09,Brazil,369410,810,29.6,18.5,26
+985,Fried Chicken,Burger King,1.8,France,345414,844,47.8,64.2,56
+986,Fried Chicken,McDonalds,9.37,Germany,116426,1074,17.1,68.1,64
+987,Soda,Pizza Hut,12.87,Australia,139794,301,14.1,38.6,8
+988,Hot Dog,Burger King,8.91,Canada,337586,735,27.3,33.3,81
+989,Fried Chicken,Dominos,4.46,Germany,362776,1062,56,78.2,95
+990,Soda,Coca-Cola,1.95,Germany,176103,423,44.1,16,37
+991,Chocolate,Nestle,4.4,Brazil,215307,645,28,17.2,97
+992,Sandwich,Lays,7.12,Japan,26438,250,33.4,23.3,27
+993,Sandwich,Lays,11.75,Canada,63819,706,9.6,13.8,45
+994,Chocolate,Lays,4.04,France,48856,222,59.2,30.3,4
+995,Ice Cream,KFC,11.22,Australia,431792,1187,41.7,72.9,86
+996,Soda,Dominos,13.2,Canada,309082,306,20.7,49.2,90
+997,Soda,Coca-Cola,7.63,USA,447244,884,37.2,33,96
+998,Chocolate,Burger King,12.59,Japan,64807,281,11,74.8,88
+999,Pizza,KFC,8.99,USA,317021,1168,58.1,3.9,99
+1000,Chips,Dominos,10.1,Australia,495999,708,14.6,16.8,37
